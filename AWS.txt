@@ -1,0 +1,9 @@
+Elastic beanstalk:
+For hosting web servers(also try EC2)
+- See chatbot project for implementation
+- port 80 is the only http port availble so use docker for it
+- Try using aws EC2 for https( to secure website- requires paid versiion )
+
+Sagemaker:
+ for training and hosting models:
+

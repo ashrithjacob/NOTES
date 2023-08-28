@@ -1,0 +1,25 @@
+Data structures:
+Array
+Linked list
+Stack
+Queue
+Binary search tree (not necessarily balanced)
+Balanced binary search tree
+Hash table
+
+Algorithm:
+Linear search
+Binary search
+Recursive algorithm (finding power of a number)
+Selection sort, insertion sort
+Quick sort, merge sort
+
+Interviewbit.com
+
+MOST ASKED
+1. BF and DF search (Binary Trees)
+2. Dynamic programming
+3. Sliding window
+4. Top K elements
+5. Backtracking
+

@@ -1,0 +1,13 @@
+2+ experience in either Data/Ops or Computer Vision/Machine Learning,
+CI/CD including GitLab as well as DevOps/MLOps infrastructure /pipelines
+Comfortable with modern, cloud-native computing paradigms such as the Docker/Kubernetes ecosystem on AWS or similar cloud provider
+Strong coding skills in Python
+Familiarity with data-oriented workflow orchestration frameworks like Airflow
+Development in Linux systems.
+Teamplayer with responsible way of working.
+Healthcare experience a big plus.
+
+Nice to have:
+Understanding of high-performance computing on GPUs via frameworks like PyTorch, TensorRT 
+MLOps experience in terms of model monitoring, data drift detection, re-training implementation, model roll-back, for machine learning solutions 
+

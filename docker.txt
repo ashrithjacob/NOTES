@@ -1,0 +1,25 @@
+Docker vs VM:
+According to OSI Model, there are 7 layers over which computer systems communicate.
+- Docker is an abstraction of the top-most application layer i.e it helps link and set up the software, directly on top of the current server, utilising the hardware and kernel of host system. It is thus lightweight (few MBs)
+- VM abstracts the lowest layer (physical layer). it thus has it's own OS, kernel and as a result is slower and more cumbersome to use(few 10s of GBs of storage), but there is complete isolation of the host machine. The Hypervisor is the software that 'translates' os hardware to the VM hardware.i
+
+Docker vs docker-compose:
+Docker file has to sit at the location of the project and can only spin up 1 container. Required a build command to spin up the container.
+docker-compose.yml can be located anywhere and can spin up multiple containers by simply running the `up -d` (detached) command.
+Practically docker-compose is more useful for multi-container and lager projects.
+
+Docker compose commands:
+BUILD IMAGES - docker-compose build
+SPIN UP CONTAINERS - docker-compose up -d
+SPIN DOWN CONTAINERS (KEEPS IMAGES) - docker-compose down 
+
+Docker command:
+docker build --tag 'image_name' .
+docker run --detach 'image_name'
+
+Delete all images:
+sudo docker image rm $(sudo docker images -q)
+
+Delete all containers
+docker rm -f $(docker ps -a -q) {does force delete}
+

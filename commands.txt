@@ -1,0 +1,4 @@
+- list all files that contain string in DIR
+`find DIR_TO_SEARCH -type f -exec grep -l "String_to_search_for" {} \;`
+
+- find a way to print each line as well for above command

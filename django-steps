@@ -1,0 +1,6 @@
+## How to build django app
+once in virtual env, run:
+1. django-admin startproject webapp
+2. python manage.py startapp webapp
+3. python manage.py runserver
+
